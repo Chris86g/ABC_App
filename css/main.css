@@ -38,7 +38,7 @@ body {
   transition: .2s;
 }
 
-.row:hover {
+.active-row, .row:hover {
   border: 3px solid #f6e600;
 }
 
@@ -53,7 +53,7 @@ body {
   transition: .2s;
 }
 
-.tile:hover {
+.active-tile, .tile:hover {
   border: 5px solid #eea804;
 }
 
@@ -68,7 +68,7 @@ body {
   transition: .2s;
 }
 
-.key:hover {
+.active-key, .key:hover {
   border: 3px solid #f00;
   background-color: #305863;
   transform: scale(1.1);
